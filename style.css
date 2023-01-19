@@ -134,7 +134,7 @@ button.ghost {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-	background-color: #f5f1f1;;
+	background-color: #EFF7D3;;
 }
  /* navbar */
  nav {
@@ -144,12 +144,12 @@ button.ghost {
     right: -1em;
  }
  #nav_in{
-    background-color:#b32525;
+    background-color:#535A3B;
     padding: 0.1em;
     width:1150px;
     position: relative;
     /* float: right; */
-	
+	top: -0.3em;	
     
 }
 #nav_in li h1 {
@@ -163,7 +163,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 29px;
-color: #fef600;
+color: #EFF7D3;
 }
 #nav_in li h4 {
     position: relative;
@@ -174,7 +174,7 @@ font-style: normal;
 font-weight: 550;
 top: -1.2em;
 
-color: white;
+color: #CEDCC3;
 }
 nav ol li{
     list-style: none;
@@ -183,7 +183,7 @@ nav ol li{
 	width: 400px;
 	position: absolute;
 	margin-top:-6em ;
-	margin-left: 40em;
+	margin-left: 39em;
 	padding: 1em;
 	float: right;
 	border-radius:54px ;
@@ -191,19 +191,19 @@ nav ol li{
 	-moz-border-radius:54px ;
 	-ms-border-radius:54px ;
 	-o-border-radius:54px ;
-	background-color: #b32525;
+	background-color: #535A3B;
 	border: 1px solid rgb(228, 221, 218);
 	
 	
 }
 #src_input::placeholder{
-	color: #FFF8F9;
+	color: #EFF7D3;
 }
 ::placeholder{
 	color: black;
 }
 svg{
-	fill: #FFF8F9;
+	fill: #EFF7D3;
 }
 .namepr h6{
 left: 11em;
@@ -212,13 +212,14 @@ position: relative;
 font-family: 'Inter';
 font-style: normal;
 font-size: 24px;
-color: rgba(19, 12, 1, 0.97);
+color: #535A3B;
 }
+
 .plus{
 	position: relative;
 	width: 70px;
 	height: 40px;
-	background: #FACE7F;
+	background: #EFF7D3;
 	border-radius: 30%;
 	-webkit-border-radius: 30%;
 	-moz-border-radius: 30%;
@@ -237,13 +238,16 @@ top: 1em;
 font-size: 24px;
 color: rgba(19, 12, 1, 0.97);
 }
+.imgsrc{
+	color: rgb(255, 255, 255);
+}
 
 #src_button{
     width: 15px;
     height: 15px;
     border: none;
     margin-top:-6.3em ;
-    margin-right:15.5em ;
+    margin-right:16em ;
 	
     background-color: transparent;
     float: right;
@@ -254,7 +258,6 @@ color: rgba(19, 12, 1, 0.97);
     border: none;
     margin-top:-6em ;
     margin-right:9em ;
-	
     background-color: transparent;
     float: right;
 }
@@ -280,27 +283,56 @@ menu, ul{
 	left: -0.5em;
 	position: relative;
 }
-.pagemenu{ 
+/* .pagemenu{ 
 	top: 0.3em; 
 	position: relative;
 	 width: 180px;
 	  height:  170px;
-	   background: #F49D1A;
+	   background: gray;
 	    left: 0.8em;
 		 border-radius: 43px; -webkit-border-radius: 43px; -moz-border-radius: 43px; -ms-border-radius: 43px; -o-border-radius: 43px;
-} 
+		 
+
+}  */
 /* .user{
 	
 
 	position: relative;
 	margin-top: 200px;
 } */
+.usr{
+	position: relative;
+	margin-top: 8em;
+	left: -8em;
+	
+}
+
+.usricon{
+	position: relative;
+	top: -1em;
+	left: 0.9em;
+	
+}
+.prd{
+	position: relative;
+	margin-top: 3em;
+
+	left: -3.5em;
+	
+}
+.usericn{
+	position: relative;
+	top: 2.3em;
+	left: -0.9em;
+	
+	
+}
 .pagemenu2{
 	top: 2.7em;
 	position: relative;
 	width: 180px;
 	height: 170px;
-	background: #3C2A21;
+	background: transparent;
 	left: 0.8em;
 	border-radius: 43px;
 	} 
@@ -314,7 +346,7 @@ font-style: normal;
 left: -15em;
 
 top: 10em;
-color: rgba(19, 12, 1, 0.97);
+color: #EFF7D3;
 }
 .big{
 	font-size: 24px;
@@ -333,15 +365,7 @@ font-weight: 700;
 font-size: 24px;
 color: rgba(19, 12, 1, 0.97);
 }
-.dashboard3{
-
-position: relative;
-width: 80%;
-height: 380px;
-left: 15.5em;
-top: -21em;
-background-color: #3C2A21;
-border-radius: 43px;
+.dashboard3{ position: relative; width: 80%; height: 380px; left: 15.5em; top: 0.3em; background-color: #535A3B; border-radius: 25px; -webkit-border-radius: 25px; -moz-border-radius: 25px; -ms-border-radius: 25px; -o-border-radius: 25px;
 }
 th{
 
@@ -354,7 +378,7 @@ font-size: 20px;
 line-height: 19px;
 /* text-align: left; */
 
-color: rgba(19, 12, 1, 0.97);
+color:#EFF7D3;
 }
 /* thatas */
 .no{
@@ -414,6 +438,7 @@ font-family: 'Inter';
 font-size: 17px;
 line-height: 19px;
 line-height: 45px;
+color: #A7B99E;
 /* text-align: left; */
 
 	}
@@ -681,9 +706,108 @@ background: #D9D9D9;
 
   /* responsivelogin */
   /* glx */
-  @media screen and (max-width:360) {
- 
-    
+  @media screen and (max-width:821px) {
+	
+.bodylogin{
+	background-color: #232222;
+}
+.wrapper{
+    position: relative;
+    margin:2.5vh;
+    top: 20em;
+    transform: translate(-50%, -50%);
+	width: 350px;
+	
 }
 
-/* popupp user untuk admin */
+.overlay-container {
+	position: relative;
+	margin-top: -21em;
+	left: 50%;
+	width: 0;
+	height: 500px;
+	overflow: hidden;
+	transition: transform 0.6s ease-in-out;
+	z-index: 100;
+}
+
+.form-container {
+	position: relative;
+	top: 60px;
+	height: 50%;
+	transition: all 0.6s ease-in-out;
+	left: 0;
+	width: 50%;
+	z-index: 2;
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+}
+.form-container h1{
+    position: relative;
+    margin-left: 4.2em;
+    margin-top: 2em;
+	color: #131212;
+	
+}
+.input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 20em;
+	left: 6.5em;
+}
+
+.buttonlogin {
+	border-radius: 20px;
+	border: 1px solid #301612;
+	background-color: #75524b;
+	color: #FFFFFF;
+    margin-top: 4em;
+    margin-left: 14em;
+}
+}
+@media screen and (max-width:821px) {
+	
+	.bodylogin{
+		background-color: #473d3d;
+	}
+	.wrapper{
+		position: relative;
+		margin:2.5vh;
+		top: 20em;
+		transform: translate(-50%, -50%);
+		width: 290px;
+		
+	}
+	
+
+	.form-container h1{
+		position: relative;
+		margin-left: 3.2em;
+		margin-top: -1em;
+		color: #131212;
+		
+	}
+	.input {
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 20em;
+		left: 5.5em;
+		top: 2em;
+	}
+	
+	.buttonlogin {
+		border-radius: 20px;
+		border: 1px solid #301612;
+		background-color: #75524b;
+		color: #FFFFFF;
+		margin-top: 6em;
+		margin-left: 6.5em;
+	}
+	}
+	
