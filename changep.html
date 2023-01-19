@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Barang</title>
+</head>
+<body id="body_index">
+    <nav class="nav-left">
+        <h6>Change the product</h6>
+    </nav>
+
+
+    <div class="card">
+        <div class="wrp">
+            
+<body class="ubahp">
+
+
+	<form action="" method="post"  enctype="multipart/form-data" id="ubah">
+		
+			
+			
+				<!-- <label for="nama_barang">Nama : </label> -->
+				<input type="text" name="nama_barang" id="nama_barang" placeholder="Nama barang"  class="namabr"  required>
+<!-- 			
+				<label   for="harga">harga :</label> -->
+				<input type="number" name="harga" class="harga" placeholder="Harga barang"  class="hargabr" required>
+<!-- 			
+				<label  for="stok">stok :</label> -->
+				<input type="number" name="stok" class="stok" placeholder="Stok"   required>
+	
+				
+                <!-- <label  for="gambar">Gambar :</label> -->
+                
+                <input class="gambar2" type="file" style="display: none"
+                onchange="this.nextElementSibling.textContent = this.previousElementSibling.title = this.files[0].name">
+                <div></div>
+<!-- 
+				<input type="file" name="gambar" class="gambar" placeholder="gambar"  required> -->
+
+				<button type="submit" name="submit" class="button2">Tambah</button>
+				
+			
+			
+	
+
+	</form>
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
